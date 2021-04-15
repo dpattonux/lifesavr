@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import "../App.css";
-import logo from "./lifesavrlogo.svg";
 import logorobot from "./lifesavrrobot.svg";
+import NextButton from "./NextButton";
+import MainTopBar from './MainTopBar';
 
 class Details2 extends Component {
   render() {
     return (
       <>
-        <div className="topbar_container">
+        {/* <div className="topbar_container">
           <div className="topbar"></div>
           <div className="navlogo">
             <img src={logo} alt="lifesavr logo" />
-          </div>
-        </div>
+          </div> */}
+          <MainTopBar/>
+        {/* </div> */}
         <div className="robot_expenses">
           <img src={logorobot} alt="robotlogo" />
         </div>
@@ -36,6 +38,8 @@ class Details2 extends Component {
 
               <label>Car Payment</label>
               <input type="text" placeholder="$"></input>
+
+              <NextButton />
             </form>
           </div>
         </div>
