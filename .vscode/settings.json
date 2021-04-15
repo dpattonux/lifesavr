@@ -3,6 +3,7 @@
         "Arimo",
         "Lifesavr",
         "Topbar",
+
         "inputcard",
         "lifesavrrobot",
         "loginstyle",
@@ -10,6 +11,8 @@
         "navlogo",
         "noreferrer",
         "robotlogo",
+        "loginstyle",
+        "noreferrer",
         "topstyle"
     ]
 }
