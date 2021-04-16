@@ -5,7 +5,7 @@ import "./index.css";
 // import Details2 from "./components/Details2";
 // import Details1 from "./components/Details1";
 // import SideBar from './components/SideBar';
-import BudgetSelections from "./Components/BudgetSelections";
+import BudgetSelections from "./components/BudgetSelections";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,7 +13,7 @@ ReactDOM.render(
     {/* <Details1 /> */}
     {/* <Details2 /> */}
     {/* <SideBar/> */}
-    <BudgetSelections/>
+    <BudgetSelections />
   </React.StrictMode>,
   document.getElementById("root")
 );
