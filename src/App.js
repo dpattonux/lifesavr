@@ -1,24 +1,19 @@
-
 import React from "react";
-import './App.css';
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import Topbar from "./components/Topbar";
-import Footer from "./components/Footer";
-
+import "./App.css";
+import Features from "./Components/Features";
+import Hero from "./Components/Hero";
+import Topbar from "./Components/Topbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
-<Topbar/>
-<Hero/>
-<Features/>
-<Footer/>
-</> 
-
+      <Topbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
-   
-  
 }
 
 export default App;
