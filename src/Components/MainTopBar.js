@@ -28,11 +28,11 @@ function MainTopBar(props) {
     width: "60px",
     borderRadius: "100%",
   };
-  const end ={
-      display: 'flex',
-      flexDirection:'row',
-      justifyContent: 'flex-end',
-  }
+  const end = {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-end",
+  };
 
   return (
     <nav id="login" style={topstyle}>

@@ -50,6 +50,23 @@
   color: #000000;
 }
 
+.welcome_details1 {
+  /* position: absolute; */
+  width: 926px;
+  height: 148px;
+  top: 3.5em;
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
 .robot_expenses {
   position: absolute;
   left: 10.9%;
@@ -73,9 +90,10 @@
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%); */
-  width: 100%;
+  width: 60%;
   height: 100%;
   margin: auto;
+  /* padding: 8em; */
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -104,8 +122,6 @@
   border-image-source: linear-gradient(0deg, #3e66fb, #3e66fb),
     linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
-
-
 
 input,
 label {
