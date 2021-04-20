@@ -141,8 +141,8 @@ input::after {
   content: "\a";
   white-space: pre;
 }
-/* 
-.rent_label {
+
+/* .rent_label {
   position: absolute;
   height: 16px;
   left: 0px;
