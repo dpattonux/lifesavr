@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MainTopBar from "./MainTopBar";
+// import MainTopBar from "./MainTopBar";
 import SideBar from "./SideBar";
 
 class Mybudget extends Component {
@@ -7,7 +7,7 @@ class Mybudget extends Component {
     return (
       <>
         <SideBar />
-        <MainTopBar />
+        {/* <MainTopBar /> */}
       </>
     );
   }
