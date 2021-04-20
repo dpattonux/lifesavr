@@ -6,7 +6,7 @@ function SideBar() {
     backgroundColor: "#1492B8",
     position: "absolute",
     height: "100%",
-    weight: "253px",
+    width: "253px",
   };
   const listStyle = {
     display: "flex",
