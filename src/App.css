@@ -110,6 +110,72 @@
   border-radius: 20px;
 }
 
+.transaction_card_container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+  margin-left: 300px;
+  margin-top: 65px;
+}
+
+.transaction_card {
+  width: 658px;
+  height: 825px;
+
+  background: #f8f8f8;
+  mix-blend-mode: normal;
+  border: 1px solid rgba(20, 146, 184, 0.3);
+  box-sizing: border-box;
+  /* 2dp */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.income_expense_container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+
+.income_card {
+  width: 340px;
+  height: 270px;
+  /* left: 1023px;
+  top: 149px; */
+
+  background: #f8f8f8;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: 1px solid #1492b8;
+  box-sizing: border-box;
+  /* 2dp */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.expense_card {
+  width: 340px;
+  height: 270px;
+  /* left: 1024px;
+  top: 449px; */
+
+  background: #f8f8f8;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: 1px solid #1492b8;
+  box-sizing: border-box;
+  /* 2dp */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
 .connect_bank {
   /* position: absolute; */
   width: 200px;
@@ -184,7 +250,6 @@ input::after {
   min-width: 200px;
   margin-top: 60px;
   z-index: 2;
-
 }
 
 .selections_text {
@@ -199,12 +264,12 @@ input::after {
   line-height: 30px;
 }
 
-
-.selections::before, .selections::after {
+.selections::before,
+.selections::after {
   content: "";
   height: 0px;
   width: 0px;
-  background: linear-gradient(140deg, #0f7594, #3AD2FF);
+  background: linear-gradient(140deg, #0f7594, #3ad2ff);
 
   position: absolute;
   z-index: -1;
@@ -217,10 +282,8 @@ input::after {
 }
 
 .selections::after {
-
   right: 0;
   bottom: -8px;
-
 }
 
 @keyframes outline {
@@ -240,8 +303,8 @@ input::after {
   }
 }
 
-.selections:hover::before, .selections:hover::after {
+.selections:hover::before,
+.selections:hover::after {
   animation: outline 1s linear;
   animation-fill-mode: forwards;
 }
-
