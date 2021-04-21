@@ -3,6 +3,7 @@ import "../App.css";
 import logorobot from "./lifesavrrobot.svg";
 import NextButton from "./NextButton";
 import MainTopBar from "./MainTopBar";
+import { Link } from "react-router-dom";
 
 class Details1 extends Component {
   render() {
@@ -37,8 +38,9 @@ class Details1 extends Component {
 
               <label>Number of Children</label>
               <input type="text" placeholder=""></input>
-
+                <Link to='/details2'>
               <NextButton />
+              </Link>
             </form>
           </div>
         </div>

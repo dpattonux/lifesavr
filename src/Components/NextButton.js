@@ -3,7 +3,7 @@ import React from "react";
 function NextButton() {
   const nextStyle = {
     color: "white",
-    backgroundColor: "#1492B8",
+    backgroundColor: "#1492BB",
     borderRadius: "200px",
     height: "36px",
     width: "96px",
@@ -14,6 +14,7 @@ function NextButton() {
     lineHeight: "28px",
     border: "none",
     marginBottom: 20,
+    cursor:'pointer',
   };
 
   return <button style={nextStyle}>Next</button>;

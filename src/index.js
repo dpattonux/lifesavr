@@ -2,18 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-// import Details2 from "./components/Details2";
-import Mybudget from "./Components/Mybudget.js";
-// import Details1 from "./components/Details1";
-// import SideBar from './components/SideBar';
+import { BrowserRouter } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    {/* <Details1 /> */}
-    {/* <Details2 /> */}
-    {/* <Mybudget /> */}
-    {/* <SideBar/> */}
+   <BrowserRouter>
+      <App />
+   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
