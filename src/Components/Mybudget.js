@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import MainTopBar from "./MainTopBar";
 import SideBar from "./SideBar";
 import "../App.css";
 import "../css-gridstyles.css";
@@ -9,7 +8,6 @@ class Mybudget extends Component {
     return (
       <>
         <SideBar />
-        {/* <MainTopBar /> */}
         <div className="grid-container">
           <div className="grid-item item-1">Transactions </div>
           <div className="grid-item item-2"> Income </div>

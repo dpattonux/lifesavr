@@ -14,6 +14,7 @@ function NextButton() {
     lineHeight: "28px",
     border: "none",
     marginBottom: 20,
+    cursor:'pointer',
   };
 
   return <button style={nextStyle}>Next</button>;

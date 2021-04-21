@@ -1,5 +1,6 @@
 import React from "react";
 import people from '../img/people.svg';
+import { Link } from "react-router-dom";
 
 function Hero(){
     const heroImg={
@@ -47,6 +48,8 @@ function Hero(){
         fontSize: '24px',
         lineHeight: '28px',
         border: 'none',
+        textDecoration:'none',
+        cursor:'pointer',
     }
     const imgWidth ={
         width:"100%",
@@ -57,7 +60,7 @@ function Hero(){
             <div style={signUpStyle}>
             <p style={{margin: 0}}>Budgeting can be hard</p>
             <p>Let us make it simple</p>
-            <button style={buttonStyle}>Sign Up</button>
+            <Link to="/budgetSelection">< button style={buttonStyle}>Sign Up</ button></Link>
             </div>
             <div style={heroImg}>
                 <img src={people} alt="Group of people" style={imgWidth}/>

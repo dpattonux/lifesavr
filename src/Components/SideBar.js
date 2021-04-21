@@ -1,12 +1,13 @@
 import React from "react";
 import MainTopBar from "./MainTopBar";
+import { Link } from "react-router-dom";
 
 function SideBar() {
   const sideStyle = {
     backgroundColor: "#1492B8",
     position: "absolute",
     height: "100%",
-    width: "253px",
+    width: "203px",
   };
   const listStyle = {
     display: "flex",
@@ -31,52 +32,52 @@ function SideBar() {
         <ul style={listStyle}>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               My Budget
-            </a>{" "}
+            </Link>{" "}
           </li>
 
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Linked Accounts
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Income & Expenses
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Savings
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Bill Vault
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Money Tips
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               Earn Extra Income
-            </a>
+            </Link>
           </li>
           <li className="highlight">
             {" "}
-            <a href="#" style={linkStyle}>
+            <Link to='/' style={linkStyle}>
               <i class="fad fa-power-off"></i>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
