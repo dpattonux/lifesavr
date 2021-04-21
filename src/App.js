@@ -1,5 +1,5 @@
-
 import React from "react";
+
 import { Route, Switch } from "react-router";
 import './App.css';
 import LandingPage from "./components/Landing";
@@ -8,10 +8,10 @@ import Details1 from './components/Details1';
 import Details2 from './components/Details2';
 import Mybudget from './components/Mybudget';
 
-
 function App() {
   return (
     <>
+
     <Switch>
 
       <Route exact path='/'>
@@ -37,9 +37,8 @@ function App() {
     </Switch>
     </> 
 
+
   );
-   
-  
 }
 
 export default App;
