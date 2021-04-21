@@ -10,22 +10,13 @@ class DetailedBudget extends Component {
     return (
       <>
         <MainTopBar />
-        {/* </div> */}
         <div className="robot_expenses">
           <img src={logorobot} alt="robotlogo" />
         </div>
         <div className="expenses_text_container">
-          <text>
-            <h1
-              style={{
-                color: "black",
-                fontFamily: "Arimo",
-                fontSize: "28px",
-              }}
-            >
+          <text className="welcome_details1">
               Jane, enter your bank details.
-            </h1>
-          </text>
+           </text>
         </div>
         <div className="inputcard_container">
           <div className="inputcard">

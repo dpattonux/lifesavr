@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import logorobot from "./lifesavrrobot.svg";
-import NextButton from "./NextButton";
+import ConnectButton from "./ConnectButton";
 import MainTopBar from "./MainTopBar";
 import { Link } from "react-router-dom";
 // import { noAuto } from "@fortawesome/fontawesome-svg-core";
@@ -16,16 +16,10 @@ class DetailedBudget1 extends Component {
           <img src={logorobot} alt="robotlogo" />
         </div>
         <div className="expenses_text_container">
-          <text>
-            <h1
-              style={{
-                color: "black",
-                fontFamily: "Arimo",
-                fontSize: "28px",
-              }}
-            >
+          <text className="welcome_details1">
+            
               Jane, choose your account.
-            </h1>
+            
           </text>
         </div>
         <div className="inputcard_container">
@@ -55,8 +49,8 @@ class DetailedBudget1 extends Component {
                 }}
                 type="checkbox"
               ></input>
-              <Link to='/myBudget'>
-              <NextButton />
+              <Link to="/myBudget">
+                <ConnectButton />
               </Link>
             </form>
           </div>

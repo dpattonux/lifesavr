@@ -32,7 +32,7 @@ function SideBar() {
         <ul style={listStyle}>
           <li className="highlight">
             {" "}
-            <Link to='/' style={linkStyle}>
+            <Link to='/myBudget' style={linkStyle}>
               My Budget
             </Link>{" "}
           </li>
