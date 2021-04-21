@@ -7,6 +7,8 @@ import BudgetSelection from './components/BudgetSelections';
 import Details1 from './components/Details1';
 import Details2 from './components/Details2';
 import Mybudget from './components/Mybudget';
+import DetailedBudget from "./components/DetailedBudget";
+import DetailedBudget1 from "./components/DetailedBudget1";
 
 function App() {
   return (
@@ -32,6 +34,14 @@ function App() {
 
       <Route path ='/myBudget'>
         <Mybudget/>
+      </Route>
+
+      <Route path ='/detailedBudget'>
+        <DetailedBudget/>
+      </Route>
+
+      <Route path ='/detailedBudget1'>
+        <DetailedBudget1/>
       </Route>
       
     </Switch>

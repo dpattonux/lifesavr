@@ -39,7 +39,7 @@ class Details2 extends Component {
 
               <label>Car Payment</label>
               <input type="text" placeholder="$"></input>
-                <Link to='/myBudget'>
+                <Link to='/detailedBudget'>
               <NextButton />
               </Link>
             </form>

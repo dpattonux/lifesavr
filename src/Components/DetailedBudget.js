@@ -3,6 +3,7 @@ import "../App.css";
 import logorobot from "./lifesavrrobot.svg";
 import NextButton from "./NextButton";
 import MainTopBar from "./MainTopBar";
+import { Link } from "react-router-dom";
 
 class DetailedBudget extends Component {
   render() {
@@ -37,8 +38,9 @@ class DetailedBudget extends Component {
 
               <label>Password</label>
               <input type="text" placeholder=""></input>
-
+              <Link to='/detailedBudget1'>
               <NextButton />
+              </Link>
             </form>
           </div>
         </div>
