@@ -58,35 +58,36 @@ import logo from "./lifesavrlogo.svg";
 
 class SimpleBudget extends React.Component {
   state = {
-    netIncome: "",
-    monthlySavings: "",
-    location: "",
     rent: "",
-    utilities: "",
     groceries: "",
+    restaurants: "",
+    transportation: "",
+    utilities: "",
+    leisure: "",
     gas: "",
-  };
-  handleNetIncomeChange = (event) => {
-    this.setState({
-      netIncome: event.target.value,
-    });
-  };
-  handleMonthlySavingsChange = (event) => {
-    console.log(event.target.value);
-    this.setState({
-      monthlySavings: event.target.value,
-    });
-  };
-  handleLocationChange = (event) => {
-    console.log(event.target.value);
-    this.setState({
-      location: event.target.value,
-    });
   };
   handleRentChange = (event) => {
     console.log(event.target.value);
     this.setState({
       rent: event.target.value,
+    });
+  };
+  handleGroceriesChange = (event) => {
+    console.log(event.target.value);
+    this.setState({
+      groceries: event.target.value,
+    });
+  };
+  handleRestaurantsChange = (event) => {
+    console.log(event.target.value);
+    this.setState({
+      restaurants: event.target.value,
+    });
+  };
+  handleTransportationChange = (event) => {
+    console.log(event.target.value);
+    this.setState({
+      transportation: event.target.value,
     });
   };
   handleUtilitiesChange = (event) => {
@@ -95,10 +96,10 @@ class SimpleBudget extends React.Component {
       utilities: event.target.value,
     });
   };
-  handleGroceriesChange = (event) => {
+  handleLeisureChange = (event) => {
     console.log(event.target.value);
     this.setState({
-      groceries: event.target.value,
+      leisure: event.target.value,
     });
   };
   handleGasChange = (event) => {
@@ -125,32 +126,32 @@ class SimpleBudget extends React.Component {
           <div className="inputcard">
             <h1>Enter Your Financial Information Here</h1>
             <form onSubmit={this.handleSubmit}>
-              <label>Net Monthly Income</label>
-              <input
-                type="text"
-                onChange={(event) => this.handleNetIncomeChange(event)}
-                value={this.state.netIncome}
-              />
-
-              <label>Location </label>
-              <input
-                type="text"
-                onChange={(event) => this.handleLocationChange(event)}
-                value={this.state.location}
-              />
-
-              <label>Monthly Savings</label>
-              <input
-                type="text"
-                onChange={(event) => this.handleMonthlySavingsChange(event)}
-                value={this.state.monthlySavings}
-              />
-
-              <label>Rent </label>
+              <label>Monthly Rent</label>
               <input
                 type="text"
                 onChange={(event) => this.handleRentChange(event)}
-                value={this.state.rent}
+                value={this.state.netIncome}
+              />
+
+              <label>Groceries</label>
+              <input
+                type="text"
+                onChange={(event) => this.handleGroceriesChange(event)}
+                value={this.state.groceries}
+              />
+
+              <label>Restaurants</label>
+              <input
+                type="text"
+                onChange={(event) => this.handleRestaurantsChange(event)}
+                value={this.state.restaurants}
+              />
+
+              <label>Transportation </label>
+              <input
+                type="text"
+                onChange={(event) => this.handleTransportationChange(event)}
+                value={this.state.transportation}
               />
 
               <label>Utilities </label>
@@ -160,11 +161,11 @@ class SimpleBudget extends React.Component {
                 value={this.state.utilities}
               />
 
-              <label>Groceries</label>
+              <label>Leisure</label>
               <input
                 type="text"
-                onChange={(event) => this.handleGroceriesChange(event)}
-                value={this.state.groceries}
+                onChange={(event) => this.handleLeisureChange(event)}
+                value={this.state.leisure}
               />
 
               <label>Gas</label>
