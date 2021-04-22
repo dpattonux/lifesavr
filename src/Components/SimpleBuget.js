@@ -2,60 +2,6 @@ import React from "react";
 import "../App.css";
 import logo from "./lifesavrlogo.svg";
 
-// import Footer from "./Footer";
-// import logorobot from "./lifesavrrobot.svg";
-
-// function SimpleBudget() {
-//   const [values, setValues] = useState({
-//     netIncome: "",
-//     monthlySavings: "",
-//     location: "",
-//     rent: "",
-//     utilities: "",
-//     groceries: "",
-//     gas: "",
-//   });
-// const saveFormData = async () => {
-//   const response = await fetch("/api/registration", {
-//     method: "POST",
-//     body: JSON.stringify(values),
-//   });
-//   if (response.status !== 200) {
-//     throw new Error(`Request failed: ${response.status}`);
-//   }
-// };
-
-// const onSubmit = async (event) => {
-//   event.preventDefault(); // Prevent default submission
-//   try {
-//     await saveFormData();
-//     alert("Your registration was successfully submitted!");
-//     setValues({
-//       netIncome: "",
-//       monthlySavings: "",
-//       location: "",
-//       rent: "",
-//       utilities: "",
-//       groceries: "",
-//       gas: "",
-//     });
-//   } catch (e) {
-//     alert(`Registration failed! ${e.message}`);
-//   }
-// };
-
-// const onSubmit = () =>{
-//   return ({target: { value } }) => {
-//     setValues((oldValues) => ({})
-//   }
-// }
-
-// const set = (name) => {
-//   return ({ target: { value } }) => {
-//     setValues((oldValues) => ({ ...oldValues, [name]: value }));
-//   };
-// };
-
 class SimpleBudget extends React.Component {
   state = {
     rent: "",
