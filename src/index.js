@@ -2,16 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-// // import Details2 from "./Components/Details2";
-// import SimpleBudget from "./Components/SimpleBuget";
-// import Piechart from "./Components/Piechart";
+import { BrowserRouter } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {<App />}
-    {/* <Details2 /> */}
-    {/* {<SimpleBudget />} */}
-//     {<Piechart />}
+   <BrowserRouter>
+      <App />
+   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
