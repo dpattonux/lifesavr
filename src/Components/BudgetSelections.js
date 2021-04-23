@@ -10,7 +10,8 @@ function BudgetSelection() {
       <MainTopBar />
       <h1>Jane, what kind of budget do you want to plan?</h1>
       <div className="main">
-        <div className="selections" style={{ textDecoration: "none" }}>
+        
+        <Link to="simpleBudget" className="selections" style={{ textDecoration: "none", color: "black" }}>
           <div className="selections_text">
             <h2>Simple Budget</h2>
             <p>
@@ -19,8 +20,8 @@ function BudgetSelection() {
               to your current spending habits.
             </p>
           </div>
-        </div>
-
+        </Link>
+        
         <div className="robot">
           <img src={logorobot} alt=""></img>
         </div>

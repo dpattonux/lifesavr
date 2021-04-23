@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
-import logo from "./lifesavrlogo.svg";
+// import logo from "./lifesavrlogo.svg";
+import MainTopBar from "./MainTopBar";
+import { Link } from "react-router-dom";
 
 // import Footer from "./Footer";
 // import logorobot from "./lifesavrrobot.svg";
@@ -115,12 +117,14 @@ class SimpleBudget extends React.Component {
   render() {
     return (
       <div>
-        <div className="topbar_container">
+        {/* <div className="topbar_container">
           <div className="topbar"></div>
           <div className="navlogo">
             <img src={logo} alt="lifesavr logo" />
           </div>
-        </div>
+          
+        </div> */}
+        <MainTopBar />
         <div className="inputcard_container">
           <div className="inputcard">
             <h1>Enter Your Financial Information Here</h1>
@@ -173,8 +177,9 @@ class SimpleBudget extends React.Component {
                 onChange={(event) => this.handleGasChange(event)}
                 value={this.state.gas}
               />
-
+              <Link to='pieChart'>
               <input type="submit" value="Submit" />
+              </Link>
             </form>
           </div>
         </div>

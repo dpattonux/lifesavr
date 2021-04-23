@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Pie } from "react-chartjs-2";
-import Topbar from "./Topbar";
+import SideBar from "./SideBar";
 
 class Piechart extends Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class Piechart extends Component {
   render() {
     return (
       <div>
-        <Topbar />
+        <SideBar />
         <h1 style={styles.h1}>Heres How You Compare!</h1>
         <container style={styles.pieContainer}>
           <h2>Your Budget Data</h2>
