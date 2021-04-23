@@ -17,7 +17,7 @@ function SubmitButton() {
     cursor:'pointer',
   };
 
-  return <button style={nextStyle}>Next</button>;
+  return <button style={nextStyle}>Submit</button>;
 }
 
 export default SubmitButton;
