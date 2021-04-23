@@ -27,7 +27,9 @@ class Details2 extends Component {
         </div>
         <div className="inputcard_container">
           <div className="inputcard">
-            <button className="connect_bank">Connect Bank Account</button>
+          <Link to='/detailedBudget'>
+            <button className="connect_bank">Connect Your Bank Account</button>
+            </Link>
             <form>
               <label className="rent_label" for="rent">
                 Rent or Mortgage
@@ -39,8 +41,8 @@ class Details2 extends Component {
 
               <label>Car Payment</label>
               <input type="text" placeholder="$"></input>
-              <Link to="/detailedBudget">
-                <NextButton />
+                <Link to='/myBudget'>
+              <NextButton />
               </Link>
             </form>
           </div>

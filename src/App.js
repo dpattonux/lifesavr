@@ -9,6 +9,9 @@ import Details2 from "./components/Details2";
 import Mybudget from "./components/Mybudget";
 import DetailedBudget from "./components/DetailedBudget";
 import DetailedBudget1 from "./components/DetailedBudget1";
+import Piechart from './components/Piechart';
+import SimpleBudget from './components/SimpleBudget';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -33,12 +36,27 @@ function App() {
         <Route path="/myBudget">
           <Mybudget />
         </Route>
+      <Route path ='/detailedBudget1'>
+        <DetailedBudget1/>
+      </Route>
 
-        <Route path="/detailedBudget">
+      <Route path ='/piechart'>
+        <Piechart/>
+      </Route>
+
+      <Route path ='/simpleBudget'>
+        <SimpleBudget/>
+      </Route>
+
+      <Route path ='/signUp'>
+        <SignUp/>
+      </Route>
+
+      <Route path="/detailedBudget">
           <DetailedBudget />
         </Route>
 
-        <Route path="/detailedBudget1">
+      <Route path="/detailedBudget1">
           <DetailedBudget1 />
         </Route>
       </Switch>

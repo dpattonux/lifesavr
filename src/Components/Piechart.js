@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Pie } from "react-chartjs-2";
-import Topbar from "./Topbar";
+import SideBar from "./SideBar";
 
 class Piechart extends Component {
   constructor(props) {
@@ -9,23 +9,23 @@ class Piechart extends Component {
       maintainAspectRatio: false,
       responsive: false,
       labels: [
-        "Monthly Income",
-        "Monthly Savings",
         "Rent",
-        "Utilities",
         "Groceries",
-        "Gas",
+        "Restaurants",
+        "Transportation",
+        "Utilities",
+        "Leisure",
       ],
       datasets: [
         {
-          data: [12500, 500, 1150, 220, 400, 150],
+          data: [48, 17, 18, 5.5, 8, 3.5],
           backgroundColor: [
-            "red",
-            "blue",
-            "green",
-            "purple",
-            "orange",
-            "yellow",
+            "rgb(20, 146, 184)",
+            "rgb(58, 210, 255)",
+            "rgb(215, 201, 170)",
+            "rgb(55, 63, 81)",
+            "rgb(206, 44, 34)",
+            "rgb(168, 155, 157)",
           ],
         },
       ],
@@ -34,7 +34,7 @@ class Piechart extends Component {
   render() {
     return (
       <div>
-        <Topbar />
+        <SideBar />
         <h1 style={styles.h1}>Heres How You Compare!</h1>
         <container style={styles.pieContainer}>
           <h2>Your Budget Data</h2>
