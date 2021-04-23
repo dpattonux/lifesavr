@@ -60,7 +60,7 @@ function Hero(){
             <div style={signUpStyle}>
             <p style={{margin: 0}}>Budgeting can be hard</p>
             <p>Let us make it simple</p>
-            <Link to="/budgetSelection">< button style={buttonStyle}>Sign Up</ button></Link>
+            <Link to="/signUp">< button style={buttonStyle}>Sign Up</ button></Link>
             </div>
             <div style={heroImg}>
                 <img src={people} alt="Group of people" style={imgWidth}/>

@@ -11,6 +11,7 @@ import DetailedBudget from "./components/DetailedBudget";
 import DetailedBudget1 from "./components/DetailedBudget1";
 import Piechart from './components/Piechart';
 import SimpleBudget from './components/SimpleBudget';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -52,6 +53,10 @@ function App() {
 
       <Route path ='/simpleBudget'>
         <SimpleBudget/>
+      </Route>
+
+      <Route path ='/signUp'>
+        <SignUp/>
       </Route>
       
     </Switch>
