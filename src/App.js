@@ -9,6 +9,8 @@ import Details2 from './components/Details2';
 import Mybudget from './components/Mybudget';
 import DetailedBudget from "./components/DetailedBudget";
 import DetailedBudget1 from "./components/DetailedBudget1";
+import Piechart from './components/Piechart';
+import SimpleBudget from './components/SimpleBudget';
 
 function App() {
   return (
@@ -42,6 +44,14 @@ function App() {
 
       <Route path ='/detailedBudget1'>
         <DetailedBudget1/>
+      </Route>
+
+      <Route path ='/piechart'>
+        <Piechart/>
+      </Route>
+
+      <Route path ='/simpleBudget'>
+        <SimpleBudget/>
       </Route>
       
     </Switch>
