@@ -3,8 +3,24 @@
         "Arimo",
         "Lifesavr",
         "Topbar",
+<<<<<<< HEAD
+        "inputcard",
+        "lifesavrrobot",
+=======
+
+        "inputcard",
+        "lifesavrrobot",
         "loginstyle",
+        "logorobot",
+        "navlogo",
         "noreferrer",
+        "robotlogo",
+>>>>>>> ea1c6ab103833d355e7cdd749e5335c704f09e06
+        "loginstyle",
+        "logorobot",
+        "navlogo",
+        "noreferrer",
+        "robotlogo",
         "topstyle"
     ]
 }

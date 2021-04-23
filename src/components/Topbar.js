@@ -18,6 +18,7 @@ const topstyle = {
     fontSize: '28px',
     lineHeight: '32px',
     margin: 0,
+    height:105,
 }
 const titleStyle = {
     display:'flex',

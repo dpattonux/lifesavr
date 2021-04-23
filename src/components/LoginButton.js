@@ -13,6 +13,7 @@ function LoginButton(props){
         fontSize: '24px',
         lineHeight: '28px',
         border: 'none',
+        cursor:'pointer',
     }
     
     return (
