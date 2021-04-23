@@ -3,6 +3,7 @@ import "../App.css";
 // import logo from "./lifesavrlogo.svg";
 import MainTopBar from "./MainTopBar";
 import { Link } from "react-router-dom";
+import SubmitButton from "./SubmitButton";
 
 class SimpleBudget extends React.Component {
   state = {
@@ -125,7 +126,7 @@ class SimpleBudget extends React.Component {
                 value={this.state.gas}
               />
               <Link to='pieChart'>
-              <input type="submit" value="Submit" />
+              <SubmitButton />
               </Link>
             </form>
           </div>

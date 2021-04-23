@@ -21,7 +21,7 @@ class SignUp extends Component {
         </div>
         <div className="expenses_text_container">
           <text className="welcome_details1">
-            We just need a little information from you.
+            Lets get you set up!
           </text>
         </div>
         <div className="inputcard_container">
