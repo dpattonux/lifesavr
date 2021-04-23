@@ -16,17 +16,13 @@ class DetailedBudget1 extends Component {
           <img src={logorobot} alt="robotlogo" />
         </div>
         <div className="expenses_text_container">
-          <text className="welcome_details1">
-            
-              Jane, choose your account.
-            
-          </text>
+          <text className="welcome_details1">Jane, choose your account.</text>
         </div>
         <div className="inputcard_container">
           <div className="inputcard">
             <form>
               <label style={{ marginTop: "20px" }}>Bank Name</label>
-              <input type="text" placeholder="$"></input>
+              <input type="text" placeholder=""></input>
               <label style={{ marginTop: "20px" }}>Checking</label>{" "}
               Account*******27644
               <input

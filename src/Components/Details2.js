@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import logorobot from "./lifesavrrobot.svg";
 import NextButton from "./NextButton";
-import MainTopBar from './MainTopBar';
+import MainTopBar from "./MainTopBar";
 import { Link } from "react-router-dom";
 
 class Details2 extends Component {
@@ -14,7 +14,7 @@ class Details2 extends Component {
           <div className="navlogo">
             <img src={logo} alt="lifesavr logo" />
           </div> */}
-          <MainTopBar/>
+        <MainTopBar />
         {/* </div> */}
         <div className="robot_expenses">
           <img src={logorobot} alt="robotlogo" />

@@ -15,22 +15,22 @@ class DetailedBudget extends Component {
         </div>
         <div className="expenses_text_container">
           <text className="welcome_details1">
-              Jane, enter your bank details.
-           </text>
+            Jane, enter your bank details.
+          </text>
         </div>
         <div className="inputcard_container">
           <div className="inputcard">
             <form>
               <label style={{ marginTop: "20px" }}>Bank Name</label>
-              <input type="text" placeholder="$"></input>
+              <input type="text" placeholder=""></input>
 
               <label>Login</label>
               <input type="text" placeholder=""></input>
 
               <label>Password</label>
               <input type="text" placeholder=""></input>
-              <Link to='/detailedBudget1'>
-              <NextButton />
+              <Link to="/detailedBudget1">
+                <NextButton />
               </Link>
             </form>
           </div>

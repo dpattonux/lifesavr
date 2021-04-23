@@ -4,6 +4,8 @@ import "../App.css";
 import "../css-gridstyles.css";
 import incometrend from "./incometrend.svg";
 import testtrans from "./testtrans.svg";
+import piechart from "./piechartmybudget.svg";
+import Piechart from "./Piechart";
 
 class Mybudget extends Component {
   render() {
@@ -39,12 +41,17 @@ class Mybudget extends Component {
                 This week’s upcoming expenses
               </div>
               <div className="rent_1000">$1,000</div>
+
+              <div className="rent_payment_text">Rent</div>
             </div>
-            <div className="rent_payment_text">Rent</div>
+            <div className="car_200">$200</div>
+            <div className="car_payment_text">Car Payment</div>
           </div>
-          <div className="car_200">$200</div>
-          <div className="car_payment_text">Car Payment</div>
-          <div className="grid-item item-4"> Pie Chart </div>
+
+          <div className="grid-item item-4">
+            {" "}
+            <div className="piecharts"></div>
+          </div>
         </div>
       </>
     );

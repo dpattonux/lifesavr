@@ -8,16 +8,17 @@ function BudgetSelection() {
   return (
     <div className="budget_selections_container">
       <MainTopBar />
-      <h1>Jane, what kind of budget do you want to plan?</h1>
+      <h1>Jane, how can Lifesavr help you?</h1>
       <div className="main">
         
         <Link to="simpleBudget" className="selections" style={{ textDecoration: "none", color: "black" }}>
           <div className="selections_text">
-            <h2>Simple Budget</h2>
+            <h2>Cost of Living Analysis</h2>
+            <br />
             <p>
-              Enter your current monthly salary and your location. LifeSavr will
-              give you a breakdown of a recommended budget that you can compare
-              to your current spending habits.
+              Enter your location and monthly bills. Lifesavr will provide a
+              breakdown of your expenses and compare it to the average cost of
+              living in your area.
             </p>
           </div>
         </Link>
@@ -31,12 +32,12 @@ function BudgetSelection() {
           style={{ textDecoration: "none", color: "black" }}
         >
           <div className="selections_text">
-            <h2>Detailed Budget</h2>
+            <h2>Detailed Financial Overview</h2>
+            <br />
             <p>
-              Enter your typical monthly expenses and connect your bank
-              accounts. LifeSavr will give you a detailed breakdown of your
-              income, upcoming deductions, as well as specific areas where you
-              may be overspending.
+              Enter your monthly bills and connect your bank account. Lifesavr
+              will track your upcoming debits and deposits, show your weekly
+              income trends, and provide a cost of living analysis
             </p>
           </div>
         </Link>

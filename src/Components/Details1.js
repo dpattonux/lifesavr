@@ -29,17 +29,17 @@ class Details1 extends Component {
           <div className="inputcard">
             <form>
               <label className="rent_label" for="rent">
-                Net Income
+                Enter Net Income
               </label>
-              <input type="text" placeholder="$"></input>
+              <input type="text" placeholder=""></input>
 
               <label>Location</label>
               <input type="text" placeholder=""></input>
 
               <label>Number of Children</label>
               <input type="text" placeholder=""></input>
-                <Link to='/details2'>
-              <NextButton />
+              <Link to="/details2">
+                <NextButton />
               </Link>
             </form>
           </div>
