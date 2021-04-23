@@ -4,8 +4,8 @@ import "../App.css";
 import "../css-gridstyles.css";
 import incometrend from "./incometrend.svg";
 import testtrans from "./testtrans.svg";
-import piechart from "./piechartmybudget.svg";
-import Piechart from "./Piechart";
+// import piechart from "./piechartmybudget.svg";
+// import Piechart from "./Piechart";
 
 class Mybudget extends Component {
   render() {

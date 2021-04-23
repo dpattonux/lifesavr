@@ -36,6 +36,7 @@ function App() {
         <Route path="/myBudget">
           <Mybudget />
         </Route>
+        
       <Route path ='/detailedBudget1'>
         <DetailedBudget1/>
       </Route>
