@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import logorobot from "./lifesavrrobot.svg";
 import NextButton from "./NextButton";
-import MainTopBar from './MainTopBar';
+import MainTopBar from "./MainTopBar";
 import { Link } from "react-router-dom";
 
 class Details2 extends Component {
@@ -14,7 +14,7 @@ class Details2 extends Component {
           <div className="navlogo">
             <img src={logo} alt="lifesavr logo" />
           </div> */}
-          <MainTopBar/>
+        <MainTopBar />
         {/* </div> */}
         <div className="robot_expenses">
           <img src={logorobot} alt="robotlogo" />
@@ -27,7 +27,7 @@ class Details2 extends Component {
         </div>
         <div className="inputcard_container">
           <div className="inputcard">
-            <button className="connect_bank">Connect Your Bank Account</button>
+            <button className="connect_bank">Connect Bank Account</button>
             <form>
               <label className="rent_label" for="rent">
                 Rent or Mortgage
@@ -39,8 +39,8 @@ class Details2 extends Component {
 
               <label>Car Payment</label>
               <input type="text" placeholder="$"></input>
-                <Link to='/detailedBudget'>
-              <NextButton />
+              <Link to="/detailedBudget">
+                <NextButton />
               </Link>
             </form>
           </div>
