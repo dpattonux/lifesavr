@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-// import logo from "./lifesavrlogo.svg";
+import logorobot from "./lifesavrrobot.svg";
 import MainTopBar from "./MainTopBar";
 import { Link } from "react-router-dom";
 import SubmitButton from "./SubmitButton";
@@ -73,9 +73,17 @@ class SimpleBudget extends React.Component {
           
         </div> */}
         <MainTopBar />
+        <div className="robot_expenses">
+          <img src={logorobot} alt="robotlogo" />
+        </div>
+        <div className="expenses_text_container">
+          <text className="welcome_details1">
+          Enter Your Financial Information Here
+          </text>
+        </div>
+
         <div className="inputcard_container">
           <div className="inputcard">
-            <h1>Enter Your Financial Information Here</h1>
             <form onSubmit={this.handleSubmit}>
               <label>Monthly Rent</label>
               <input
