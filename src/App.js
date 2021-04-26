@@ -2,7 +2,7 @@ import React from "react";
 
 import { Route, Switch } from "react-router";
 import "./App.css";
-import LandingPage from "./components/Landing";
+import LandingPage from "./components/LandingPage";
 import BudgetSelection from "./components/BudgetSelections";
 import Details1 from "./components/Details1";
 import Details2 from "./components/Details2";
