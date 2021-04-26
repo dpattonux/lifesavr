@@ -2,16 +2,16 @@ import React from "react";
 
 import { Route, Switch } from "react-router";
 import "./App.css";
-import LandingPage from "./components/LandingPage";
-import BudgetSelection from "./components/BudgetSelections";
-import Details1 from "./components/Details1";
-import Details2 from "./components/Details2";
-import Mybudget from "./components/Mybudget";
-import DetailedBudget from "./components/DetailedBudget";
-import DetailedBudget1 from "./components/DetailedBudget1";
-import Piechart from "./components/Piechart";
-import SimpleBudget from "./components/SimpleBudget";
-import SignUp from "./components/SignUp";
+import LandingPage from "./Components/LandingPage";
+import BudgetSelection from "./Components/BudgetSelections";
+import Details1 from "./Components/Details1";
+import Details2 from "./Components/Details2";
+import Mybudget from "./Components/Mybudget";
+import DetailedBudget from "./Components/DetailedBudget";
+import DetailedBudget1 from "./Components/DetailedBudget1";
+import Piechart from "./Components/Piechart";
+import SimpleBudget from "./Components/SimpleBudget";
+import SignUp from "./Components/SignUp";
 
 function App() {
   return (
